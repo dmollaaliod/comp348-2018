@@ -4,7 +4,6 @@ nltk.download('gutenberg')
 nltk.download('brown')
 
 # Task 1 (1 mark)
-from collections import Counter
 def word_counts(text, words):
     """Return a vector that represents the counts of specific words in the text
     >>> word_counts("Here is sentence one. Here is sentence two.", ['Here', 'two', 'three'])
